@@ -14,7 +14,7 @@ Add it to your Rails application by installing the gem:
 
 and including a reference to it in your application's Gemfile:
 
-  gem 'deadlock_retry_insane'
+  gem 'deadlock_retry_insane', require: 'deadlock_retry'
 
 == Original Authors
 
