@@ -1,4 +1,4 @@
-= Deadlock Retry
+= Deadlock Retry INSANE EDITION (more retries)
 
 Deadlock retry allows the database adapter (currently only tested with the
 MySQLAdapter) to retry transactions that fall into deadlock. It will retry
@@ -10,8 +10,12 @@ This capability is automatically added to ActiveRecord. No code changes or other
 
 Add it to your Rails application by installing the gem:
 
-  gem install deadlock_retry
+  gem install deadlock_retry_insane
 
 and including a reference to it in your application's Gemfile:
 
-  gem 'deadlock_retry'
+  gem 'deadlock_retry_insane'
+
+== Original Authors
+
+Jamis Buck and Mike Perham made it. I just changed a number.
